@@ -74,15 +74,28 @@ Most sales orders are placed on desktop, meaning that users are more likely to c
 
 # Website Performance
 
-The objective here is about understanding which pages are seen the most by our users to identify where to focus on improving our business, identifying the most common entry
-pages to our website - the first thing a user sees. for most viewed pages and most common entry pages, understanding how those pages perform for our business is very crucial.
+The objective here is about understanding which pages are seen the most by our users so we know where to focus on improving our business. Identifying the most common entry pages to our website - the first thing a user sees. For most viewed pages and most common entry pages, understanding how those pages perform for our business is very crucial.
+We can analyze our pageviews data and grooup by url to see which pages are viewed the most. to find top entry pages, we will limit to just the first page a user sees during a given session.
 
+-- most viewed website pages, ranked by session volume
 
-
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/MostViewedWebPage.png)
 
 
 ### Landing page performance and testing: 
-We probe further to understand the performance of our key landing pages and then test to improve results.
+We probe further to understand the performance of our landing page and then test with other landing pages to identify improvement opportunities.
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/1.%20bounceRate.png)
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/2.%20bounceRate.png)
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/3.%20bounceRate.png)
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/4.%20bounceRate.png)
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/5.%20bounceRate.png)
+
+
 
 
 
