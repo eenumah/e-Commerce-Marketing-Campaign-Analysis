@@ -59,13 +59,13 @@ Here we seek to understand the value of various segments of paid traffic, so we 
 
 -- Next we look at the session to order conversion rate to see how much of our sessions are potentially converted to sales orders
 
-![](2. SessionToOrderConversionRate.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/875ba94e3fbad49d67fa06d15e72a4a8ab37168f/2.%20SessionToOrderConversionRate.png)
 
 Though "g_ad_1" accounts for the highest number of sessions and order, only 6.6% of those sessions are converted to sales orders. Other paid traffics like "b_ad_2" and "g_ad_2" had the highest conversion rates at 8.8% and 7.5% respectively. While "social_ad_1" has the lowest conversion rate at just 1%.
 
 -- If we further break this down by device type
 
-![](3. ConvByDeviceType.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/875ba94e3fbad49d67fa06d15e72a4a8ab37168f/3.%20ConvByDeviceType.png)
 
 Most sales orders are placed on desktop, meaning that users are more likely to complete a purchase on larger screens than on mobile devices
 
