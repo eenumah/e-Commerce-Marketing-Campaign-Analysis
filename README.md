@@ -85,15 +85,15 @@ We can analyze our pageviews data and grooup by url to see which pages are viewe
 ### Landing page performance and testing: 
 We probe further to understand the performance of our landing page and then test with other landing pages to identify improvement opportunities.
 
-![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/1.%20bounceRate.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/08477431be219d3f7c1d018cebfa4b0cc2602bca/1.%20bounceRate.png)
 
-![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/2.%20bounceRate.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/08477431be219d3f7c1d018cebfa4b0cc2602bca/2.%20bounceRate.png)
 
-![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/3.%20bounceRate.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/08477431be219d3f7c1d018cebfa4b0cc2602bca/3.%20bounceRate.png)
 
-![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/4.%20bounceRate.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/08477431be219d3f7c1d018cebfa4b0cc2602bca/4.%20bounceRate.png)
 
-![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/5.%20bounceRate.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/08477431be219d3f7c1d018cebfa4b0cc2602bca/5.%20bounceRate.png)
 
 
 
