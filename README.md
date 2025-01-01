@@ -7,16 +7,16 @@ In this project, we will be using a custom-built and extremely rich e-commerce d
 # Data Exploration
 
 We will be working with 6 related tables containing e-commerce data about;
-website activity
-products
-orders and refunds
+- website activity
+- products
+- orders and refunds
 
 ### 1. orders table: 
 This is where purchases placed by customers are stored, and contains variables like the timestamp of the order, the website session, item purchased, price and cost of goods sold  in US dollars. This is a very critical table as this is where the revenue comes from and we will be linking this table to other tables to discover what kind of marketing activities are driving these orders, how well is the website performing to drive those orders, etc.
 
 Pictures here
 
-### 2. order_item table: 
+### 2. order_items table: 
 Within an order, we have various order items. A customer could purchase multiple items, we link this table with the orders table to find what order those items are part of.
 
 pictures here
@@ -45,19 +45,29 @@ pictures here
 # Traffic Source Analysis 
 
 We aim to understand where our customers are coming from and which channels (emails, social, search, direct) are driving the highest quality traffic. Then a conversion analysis is done to see how valuable the traffic is. we will also compare user behaviour patterns across traffic sources to inform creative and messaging strategy, and identify opportunities to eliminate wasted spend or scale high-converting traffic.
-
 When businesses run paid marketing campaigns, they often obsess over performance and measure everything; how much they spend, how well traffic converts to sales, etc... Paid traffic is commonly tagged with tracking (UTM) parameters, which are appended to URLs and allow us to tie website activity back to specific traffic sources and campaigns.
 
+-- We want to see which ad(utm source) drives the most traffic
 
+![](AdWithMostTraffic.png)
+
+This shows that "g_ad_1" drives most traffic, accounting for 59.7% of total sessions while direct traffic/non-paid traffic/organic searches (reflected in the data for utm parameters with "Null" values) accounts for 17.6% of total sessions. This means total paid traffic accounts for 82.4% of the total sessions.
 
 
 ## Bid optimization: 
 Here we seek to understand the value of various segments of paid traffic, so we can optimize our marketing budget. using conversion rate and revenue per click analyses, we try to figure out how much we should spend per click to acquire customers, how website and products perform for various subsegments of traffic (i.e desktop vs mobile) to optimize within channels, analyzing the impact that bid changes have on our ranking in the auctions, and the volume of customers driven to our site.
 
+-- Next we look at the session to order conversion rate to see how much of our sessions are potentially converted to sales orders
 
+![](SessionToOrderConversionRate.png)
 
+Though "g_ad_1" accounts for the highest number of sessions and order, only 6.6% of those sessions are converted to sales orders. Other paid traffics like "b_ad_2" and "g_ad_2" had the highest conversion rates at 8.8% and 7.5% respectively. While "social_ad_1" has the lowest conversion rate at just 1%.
 
+-- If we further break this down by device type
 
+![](ConvByDeviceType.png)
+
+Most sales orders are placed on desktop, meaning that users are more likely to complete a purchase on larger screens than on mobile devices
 
 
 
