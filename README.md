@@ -49,7 +49,7 @@ When businesses run paid marketing campaigns, they often obsess over performance
 
 -- We want to see which ad(utm source) drives the most traffic
 
-1. AdWithMostTraffic.png
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/aee85036a8d1319788f4a0008ac604a2c84cacb3/1.%20AdWithMostTraffic.png)
 
 This shows that "g_ad_1" drives most traffic, accounting for 59.7% of total sessions while direct traffic/non-paid traffic/organic searches (reflected in the data for utm parameters with "Null" values) accounts for 17.6% of total sessions. This means total paid traffic accounts for 82.4% of the total sessions.
 
