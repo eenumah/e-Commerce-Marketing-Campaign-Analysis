@@ -14,32 +14,33 @@ We will be working with 6 related tables containing e-commerce data about;
 ### 1. orders table: 
 This is where purchases placed by customers are stored, and contains variables like the timestamp of the order, the website session, item purchased, price and cost of goods sold  in US dollars. This is a very critical table as this is where the revenue comes from and we will be linking this table to other tables to discover what kind of marketing activities are driving these orders, how well is the website performing to drive those orders, etc.
 
-Pictures here
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/orders_table.png)
 
 ### 2. order_items table: 
 Within an order, we have various order items. A customer could purchase multiple items, we link this table with the orders table to find what order those items are part of.
 
-pictures here
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/order_items_table.png)
 
 ### 3. products table: 
 Contains the name of the products in company's portfolio, the date those products where released and an identification number to link with other tables.
 
-pictures here
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/products_table.png)
 
 ### 4. order_item_refunds table: 
 This is usually for when they have complaints from customers and refunds have to be made. It contains the date of refund, refund amount in US dollars, and the order item too.
 
-pictures here
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/order_item_refunds_table.png)
 
 ### 5. website_sessions table: 
 This is another very important table as it contains data that helps us track where traffic is coming from and which of those traffic sources are helping us generate orders. so every session representing visits to the website by a customer has an identification number associated with it, timestamp the session was created, whether its a repeat session or not, utm (Urchine Tracking Module) parameters tagged with paid traffic to measure the performance of online marketing campaigns, device type and browser.
 
-pictures here
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/website_sessions_table.png)
 
 ### 6. website_pageviews table: 
 Contains data for the web pages viewed during each sessions
 
-pictures here
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/website_pageviews_table.png)
+
 
 
 # Traffic Source Analysis 
@@ -54,7 +55,7 @@ When businesses run paid marketing campaigns, they often obsess over performance
 This shows that "g_ad_1" drives most traffic, accounting for 59.7% of total sessions while direct traffic/non-paid traffic/organic searches (reflected in the data for utm parameters with "Null" values) accounts for 17.6% of total sessions. This means total paid traffic accounts for 82.4% of the total sessions.
 
 
-## Bid optimization: 
+### Bid optimization: 
 Here we seek to understand the value of various segments of paid traffic, so we can optimize our marketing budget. using conversion rate and revenue per click analyses, we try to figure out how much we should spend per click to acquire customers, how website and products perform for various subsegments of traffic (i.e desktop vs mobile) to optimize within channels, analyzing the impact that bid changes have on our ranking in the auctions, and the volume of customers driven to our site.
 
 -- Next we look at the session to order conversion rate to see how much of our sessions are potentially converted to sales orders
@@ -80,7 +81,7 @@ pages to our website - the first thing a user sees. for most viewed pages and mo
 
 
 
-## Landing page performance and testing: 
+### Landing page performance and testing: 
 We probe further to understand the performance of our key landing pages and then test to improve results.
 
 
@@ -89,7 +90,7 @@ We probe further to understand the performance of our key landing pages and then
 
 
 
-## Analyzing and testing conversion funnels: 
+### Analyzing and testing conversion funnels: 
 We deep futher to understand and opotimize each step of our user's experience on their journey toward purchasing our products. We identify the most common paths customers take before purchasing our products, identifying how many of our users continue on to each next step in our conversion flow, and how many users abandon at each step. Also, optimizing critical pain points where users are abandoning, so that we can convert more users and sell more products.
 
 
@@ -110,7 +111,7 @@ To tackle this, we will investigate which marketing channels are driving the mos
 
 
 
-## Analyzing Direct Traffic: 
+### Analyzing Direct Traffic: 
 Here we analyze our branded or direct traffic to see how our brand is doing with customers and how well our brand drives business.
 We will be identifying how much revenue we are generating from direct traffic - as this is high margin revenue without a direct cost of customer acquisition.
 
