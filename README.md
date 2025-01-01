@@ -34,7 +34,7 @@ This is usually for when they have complaints from customers and refunds have to
 ### 5. website_sessions table: 
 This is another very important table as it contains data that helps us track where traffic is coming from and which of those traffic sources are helping us generate orders. so every session representing visits to the website by a customer has an identification number associated with it, timestamp the session was created, whether its a repeat session or not, utm (Urchine Tracking Module) parameters tagged with paid traffic to measure the performance of online marketing campaigns, device type and browser.
 
-![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/website_sessions_table.png)
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a8782c39faaa4667b7c4da261e2079663e1ebc04/webiste_sessions_table.png)
 
 ### 6. website_pageviews table: 
 Contains data for the web pages viewed during each sessions
