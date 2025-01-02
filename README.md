@@ -49,6 +49,7 @@ Contains data for the web pages viewed during each sessions
 We aim to understand where our customers are coming from and which channels (emails, social, search, direct) are driving the highest quality traffic. Then a conversion analysis is done to see how valuable the traffic is. we will also compare user behaviour patterns across traffic sources to inform creative and messaging strategy, and identify opportunities to eliminate wasted spend or scale high-converting traffic.
 When businesses run paid marketing campaigns, they often obsess over performance and measure everything; how much they spend, how well traffic converts to sales, etc... Paid traffic is commonly tagged with tracking (UTM) parameters, which are appended to URLs and allow us to tie website activity back to specific traffic sources and campaigns.
 
+
 -- We want to see which ad(utm source) drives the most traffic
 
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/aee85036a8d1319788f4a0008ac604a2c84cacb3/1.%20AdWithMostTraffic.png)
@@ -56,19 +57,24 @@ When businesses run paid marketing campaigns, they often obsess over performance
 This shows that "g_ad_1" drives most traffic, accounting for 59.7% of total sessions while direct traffic/non-paid traffic/organic searches (reflected in the data for utm parameters with "Null" values) accounts for 17.6% of total sessions. This means total paid traffic accounts for 82.4% of the total sessions.
 
 Total sessions: 472,871
+
 Organic traffic: 9.1%
+
 Direct traffic: 8.4%
+
 Paid traffic: 82.3%
 
 
 ### Bid optimization: 
 Here we seek to understand the value of various segments of paid traffic, so we can optimize our marketing budget. using conversion rate and revenue per click analyses, we try to figure out how much we should spend per click to acquire customers, how website and products perform for various subsegments of traffic (i.e desktop vs mobile) to optimize within channels, analyzing the impact that bid changes have on our ranking in the auctions, and the volume of customers driven to our site.
 
+
 -- Next we look at the session to order conversion rate to see how much of our sessions are potentially converted to sales orders
 
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/875ba94e3fbad49d67fa06d15e72a4a8ab37168f/2.%20SessionToOrderConversionRate.png)
 
 Though "g_ad_1" accounts for the highest number of sessions and order, only 6.6% of those sessions are converted to sales orders. Other paid traffics like "b_ad_2" and "g_ad_2" had the highest conversion rates at 8.8% and 7.5% respectively. While "social_ad_1" has the lowest conversion rate at just 1%.
+
 
 -- If we further break this down by device type
 
@@ -88,6 +94,7 @@ We can analyze our pageviews data and grooup by url to see which pages are viewe
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3453d938e44dc8e054f03ca165ba0234bec7e218/MostViewedWebPage.png)
 
 
+
 ### Landing page performance and testing: 
 We probe further to understand the performance of our landing page and then test with other landing pages to identify improvement opportunities.
 
@@ -104,6 +111,7 @@ We probe further to understand the performance of our landing page and then test
 
 The bounce rate calculation for the landing page shows 41.6% of sessions don't go beyond the landing page
 
+
 -- performing an A/B testing, comparing the bounce rate performance for other landing pages against the /home page
 
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/c8b181902282bc8c7628926e713efa6083c03801/6.%20bounceRate.png)
@@ -113,6 +121,7 @@ At 53.2%, "/lander-1" tops the list for landing page with highest bounce rate, "
 
 ### Analyzing and testing conversion funnels: 
 We deep futher to understand and opotimize each step of our user's experience on their journey toward purchasing our products. We identify the most common paths customers take before purchasing our products, identifying how many of our users continue on to each next step in our conversion flow, and how many users abandon at each step. Also, optimizing critical pain points where users are abandoning, so that we can convert more users and sell more products.
+
 
 -- we want to know where the biggest pain points are for our customers as they journey towards purchasing our products. we will consider their journey from landing page "/home" to "/cart" page
 
@@ -140,6 +149,7 @@ but generally, only 29.8% made it to "/cart" out of 318,577 sessions from the la
 
 
 
+
 # Business patterns and seasonality
 
 We deep dive into tthe data to gain insights regarding efficiency optimization and future trends to look out for. This will also helps us know how much support staff  we should have at different times of the day or days of the week, and to better prepare for upcoming spikes or slow downs in demand.
@@ -162,6 +172,7 @@ Result shows that during the day across  workdays of the week, average session v
 
 
 
+
 # Product portfolio analysis
 
 This will help us understand how each product contributes to our business, and how product launches impact the overall portfolio. Here we will analyze sales and revenue by product, monitor impact of adding a new product to our portfolio and watching product sales trend to understand the overall health of our business.
@@ -171,12 +182,19 @@ This will help us understand how each product contributes to our business, and h
 
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3059699f50c02f6dde0cdd3e1749a1ce86f08a11/product1.png)
 
+
 Product 1: The Original Mr. Fuzzy
+
 Product 2: The Forever Love Bear
+
 Product 3: The Birthday Sugar Panda
+
 Product 4: The Hudson River Mini bear
 
+
 Product 2 has the highest average order value of $66.2 per order compared to $59.5 per order for the company's first product
+
+
 
 -- trended analysis showing monthly order volume, overall conversion rates, revenue per session, and a breakdown of sales by product, to better understand the impact of new product launches on conversion rate and revenue per session.
 
@@ -187,14 +205,19 @@ Product 2 has the highest average order value of $66.2 per order compared to $59
 The introduction of more products consistently led to increase in nconversion rate from as low as 3% in march, 2012 to 8.3% as at march, 2015. Revenue per session also increased from $1.6 to $5.2 in same time period.
 
 
+
 -- here we look into products and their conversion rate in terms of viewed_product_to_order_rate to see how well each product converts customers
 
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a6c8125f8df599146b8657acab4abf1024be080b/product5.png)
 
 Product 1: The Original Mr. Fuzzy
+
 Product 2: The Forever Love Bear
+
 Product 3: The Birthday Sugar Panda
+
 Product 4: The Hudson River Mini bear
+
 
 Product 4 has the highest viewed_product_to_order_rate at 22% compared to product 3 at 18%, product 2 at 16% and product 1 at 14.6%. Its important to note that product 4 has only spent 4 months on the market, product 3 (16 months), product 2 (27 months) and product 1 (37 months)
 
@@ -207,9 +230,13 @@ Product 4 has the highest viewed_product_to_order_rate at 22% compared to produc
 1. Paid ad "g_ad_1" drives most traffic, accounting for 59.7% of total sessions while direct traffic/organic searches (reflected in the data for utm parameters with "Null" values) accounts for 17.6% of total sessions. This means total paid traffic accounts for 82.4% of the total sessions.
 
 Total sessions: 472,871
+
 Organic traffic: 9.1%
+
 Direct traffic: 8.4%
+
 Paid traffic: 82.3%
+
 
 2. Though "g_ad_1" accounts for the highest number of sessions and order, only 6.6% of those sessions are converted to sales orders. Other paid traffics like "b_ad_2" and "g_ad_2" had the highest conversion rates at 8.8% and 7.5% respectively. While "social_ad_1" has the lowest conversion rate at just 1%.
 
@@ -227,8 +254,11 @@ Also, during the day across  workdays of the week, average session volume begins
 8. Product 2 has the highest average order value of $66.2 per order compared to $59.5 per order for the company's first product. The introduction of more products consistently led to increase in nconversion rate from as low as 3% in march, 2012 to 8.3% as at march, 2015. Revenue per session also increased from $1.6 to $5.2 in same time period. Product 4 has the highest viewed_product_to_order_rate at 22% compared to product 3 at 18%, product 2 at 16% and product 1 at 14.6%. Its important to note that product 4 has only spent 4 months on the market, product 3 (16 months), product 2 (27 months) and product 1 (37 months).
 
 Product 1: The Original Mr. Fuzzy
+
 Product 2: The Forever Love Bear
+
 Product 3: The Birthday Sugar Panda
+
 Product 4: The Hudson River Mini bear
 
 
@@ -236,23 +266,16 @@ Product 4: The Hudson River Mini bear
 
 # Recommendations
 
-#### Traffic and Acquisition
-Continue to allocate a significant budget to paid advertising, particularly to "g_ad_1," which drives the most traffic. And develop a comprehensive SEO strategy to increase organic traffic, which currently accounts for only 9.1% of total sessions. Also Investigate ways to increase direct traffic, such as email marketing campaigns or loyalty programs.
+Traffic and Acquisition: Continue to allocate a significant budget to paid advertising, particularly to "g_ad_1," which drives the most traffic. And develop a comprehensive SEO strategy to increase organic traffic, which currently accounts for only 9.1% of total sessions. Also Investigate ways to increase direct traffic, such as email marketing campaigns or loyalty programs.
 
-#### Conversion Rate Optimization
-Investigate why "g_ad_1" has a low conversion rate (6.6%) despite driving the most traffic. Then allocate more resources to "b_ad_2" and "g_ad_2," which have higher conversion rates (8.8% and 7.5%, respectively), and enhance the user experience on the landing page to reduce bounce rates and increase conversions.
+Conversion Rate Optimization: Investigate why "g_ad_1" has a low conversion rate (6.6%) despite driving the most traffic. Then allocate more resources to "b_ad_2" and "g_ad_2," which have higher conversion rates (8.8% and 7.5%, respectively), and enhance the user experience on the landing page to reduce bounce rates and increase conversions.
 
-#### Device Optimization
-Improve the mobile user experience to increase conversions, as most sales orders are currently placed on desktop.
+Device Optimization: Improve the mobile user experience to increase conversions, as most sales orders are currently placed on desktop.
 
-#### Customer Journey Optimization
-Streamline the navigation process from the landing page to the cart page to reduce friction and increase conversions. Also enhance the product page experience to increase the likelihood of users adding products to their cart.
+Customer Journey Optimization: Streamline the navigation process from the landing page to the cart page to reduce friction and increase conversions. Also enhance the product page experience to increase the likelihood of users adding products to their cart.
 
-#### Seasonality and Trends
-Create targeted marketing campaigns to capitalize on peak sales periods during the holiday season, while continuously monitoring monthly trends and adapting marketing strategies accordingly.
+Seasonality and Trends: Create targeted marketing campaigns to capitalize on peak sales periods during the holiday season, while continuously monitoring monthly trends and adapting marketing strategies accordingly.
 
-#### Product Optimization
-Continuously analyze product performance to identify opportunities for growth and optimization. Introduce new products strategically to increase conversion rates and revenue per session.
+Product Optimization: Continuously analyze product performance to identify opportunities for growth and optimization. Introduce new products strategically to increase conversion rates and revenue per session.
 
-#### Revenue Growth
-Implement strategies to increase average order value, such as upselling or cross-selling. And continuously optimize the user experience and marketing strategies to increase revenue per session.
+Revenue Growth: Implement strategies to increase average order value, such as upselling or cross-selling. And continuously optimize the user experience and marketing strategies to increase revenue per session.
