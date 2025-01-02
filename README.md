@@ -54,6 +54,11 @@ When businesses run paid marketing campaigns, they often obsess over performance
 
 This shows that "g_ad_1" drives most traffic, accounting for 59.7% of total sessions while direct traffic/non-paid traffic/organic searches (reflected in the data for utm parameters with "Null" values) accounts for 17.6% of total sessions. This means total paid traffic accounts for 82.4% of the total sessions.
 
+Total sessions: 472,871
+Organic traffic: 9.1%
+Direct traffic: 8.4%
+Paid traffic: 82.3%
+
 
 ### Bid optimization: 
 Here we seek to understand the value of various segments of paid traffic, so we can optimize our marketing budget. using conversion rate and revenue per click analyses, we try to figure out how much we should spend per click to acquire customers, how website and products perform for various subsegments of traffic (i.e desktop vs mobile) to optimize within channels, analyzing the impact that bid changes have on our ranking in the auctions, and the volume of customers driven to our site.
@@ -134,17 +139,61 @@ but generally, only 29.8% made it to "/cart" out of 318,577 sessions from the la
 
 
 
-
 # Business patterns and seasonality
 
 We deep dive into tthe data to gain insights regarding efficiency optimization and future trends to look out for. This will also helps us know how much support staff  we should have at different times of the day or days of the week, and to better prepare for upcoming spikes or slow downs in demand.
 
 
+-- monthly trend of sessions, orders, conversion rate, organic traffic, direct traffic and paid traffic
 
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/c3a0ff432e9fe2d08d107854c5e4f8bf7b9c6740/trend.png)
+
+The monthly trend shows session increases with months, peaking in November every year.
+
+
+-- average website session volume, by hour of day and by day week so that we can staff appropriately
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/bf87941070dc0c47b10cceede7e964f5eb2a127e/trend2.png)
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/bf87941070dc0c47b10cceede7e964f5eb2a127e/trend3.png)
+
+Result shows that during the day across  workdays of the week, average session volume begins to significantly increase from 8am (17 to 20) and is at it's highest between the hours of 10am to 5pm (31 to 37), compared to saturdays and sundays where average session volume ranges between 5 and 16.
 
 
 
 # Product portfolio analysis
 
-This will help us understand how each product contributes to our business, and how product launches impact the overall portfolio. Here we will analyze sales and revenue by product, monitor impact of adding a new product to our portfolio and watching product sales trend to understand the overall health of our business
+This will help us understand how each product contributes to our business, and how product launches impact the overall portfolio. Here we will analyze sales and revenue by product, monitor impact of adding a new product to our portfolio and watching product sales trend to understand the overall health of our business.
+
+
+-- We will be looking at our order data, and tie in the specific product(s) driving sales. we will want to know how much of our order volume comes from each product, and the overall revenue and margin generated.
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3059699f50c02f6dde0cdd3e1749a1ce86f08a11/product1.png)
+
+Product 1: The Original Mr. Fuzzy
+Product 2: The Forever Love Bear
+Product 3: The Birthday Sugar Panda
+Product 4: The Hudson River Mini bear
+
+Product 2 has the highest average order value of $66.2 per order compared to $59.5 per order for the company's first product
+
+-- trended analysis showing monthly order volume, overall conversion rates, revenue per session, and a breakdown of sales by product, to better understand the impact of new product launches on conversion rate and revenue per session.
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3059699f50c02f6dde0cdd3e1749a1ce86f08a11/product2.png)
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/3059699f50c02f6dde0cdd3e1749a1ce86f08a11/product3.png)
+
+The introduction of more products consistently led to increase in nconversion rate from as low as 3% in march, 2012 to 8.3% as at march, 2015. Revenue per session also increased from $1.6 to $5.2 in same time period.
+
+
+-- here we look into products and their conversion rate in terms of viewed_product_to_order_rate to see how well each product converts customers
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/a6c8125f8df599146b8657acab4abf1024be080b/product5.png)
+
+Product 1: The Original Mr. Fuzzy
+Product 2: The Forever Love Bear
+Product 3: The Birthday Sugar Panda
+Product 4: The Hudson River Mini bear
+
+Product 4 has the highest viewed_product_to_order_rate at 22% compared to product 3 at 18%, product 2 at 16% and product 1 at 14.6%. Its important to note that product 4 has only spent 4 months on the market, product 3 (16 months), product 2 (27 months) and product 1 (37 months)
 
