@@ -96,40 +96,41 @@ We probe further to understand the performance of our landing page and then test
 ![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/08477431be219d3f7c1d018cebfa4b0cc2602bca/5.%20bounceRate.png)
 
 
+The bounce rate calculation for the landing page shows 41.6% of sessions don't go beyond the landing page
 
+-- performing an A/B testing, comparing the bounce rate performance for other landing pages against the /home page
 
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/c8b181902282bc8c7628926e713efa6083c03801/6.%20bounceRate.png)
 
-
-
+At 53.2%, "/lander-1" tops the list for landing page with highest bounce rate, "/home" being at 41.6%, about 5% worse than "/lander-5" which has the best performance in terms of bounce rate
 
 
 ### Analyzing and testing conversion funnels: 
 We deep futher to understand and opotimize each step of our user's experience on their journey toward purchasing our products. We identify the most common paths customers take before purchasing our products, identifying how many of our users continue on to each next step in our conversion flow, and how many users abandon at each step. Also, optimizing critical pain points where users are abandoning, so that we can convert more users and sell more products.
 
+-- we want to know where the biggest pain points are for our customers as they journey towards purchasing our products. we will consider their journey from landing page "/home" to "/cart" page
+
+Step 1: we will select all pageviews for relevant sessions
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/5f0f92c29374d34a420b11994e64b768b07d48aa/clickthru1.png)
+
+Step 2: identify each relevant pageview as the specific funnel step
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/5f0f92c29374d34a420b11994e64b768b07d48aa/clickthru2.png)
 
 
+Step 3: create the session-level conversion funnel view
+
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/5f0f92c29374d34a420b11994e64b768b07d48aa/clickthru3.png)
 
 
-# Analyzing channel portfolios
+step 4: aggregate the data to assess funnel performance
 
-This is about bidding efficiently and using data to maximize the effectiveness of our marketing budget. The business could have different marketing channels like email, social networks, search and direct typing and will cost us different amounts. Our job as analyst will be to figure out which one cost the most, which is most effective and optimize the bidding.
-
-To tackle this, we will investigate which marketing channels are driving the most sessions and orders through our website, try to understand differences in user characteristics and conversion performance across our marketing channels, optimizing bids and allocating marketing spend across a multi-channel portfolio to achieve maximum performance.
+![](https://github.com/eenumah/e-Commerce-Marketing-Campaign-Analysis/blob/5f0f92c29374d34a420b11994e64b768b07d48aa/clickthru4.png)
 
 
-
-
-
-
-
-
-
-### Analyzing Direct Traffic: 
-Here we analyze our branded or direct traffic to see how our brand is doing with customers and how well our brand drives business.
-We will be identifying how much revenue we are generating from direct traffic - as this is high margin revenue without a direct cost of customer acquisition.
-
-To identify traffic coming to your site that you are not paying for with marketing campaigns, we will again turn to our utm parameters.
-For non-paid traffic (i.e organic search, direct type in), we can analyze data where the utm parameters are NULL.
+58.4% of users made it to "/cart" from "/the-original-mr-fuzzy" page and 62% made it to "/the-original-mr-fuzzy" from "/products" page and 82% made it to "/products" page from the "/home" page
+but generally, only 29.8% made it to "/cart" out of 318,577 sessions from the landing page "/home".
 
 
 
